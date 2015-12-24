@@ -37,16 +37,12 @@
 - (IBAction)btnSendPressed:(id)sender {
     
     [ViewController sampleWsCallWithBlock:^(id resultData, BOOL reported) {
-        NSLog(@"//////***************************RESPONCE*********************////");
-        NSLog(@"%@",resultData);
         
-        NSLog(@"JSON object From Dict : \n %@",[MTSerialization JSONStringWithDictinary:resultData]);
+        NSLog(@"JSON object From Dict : \n %@",[MTSerialization jSONStringWithDictinary:resultData]);
  
-        NSLog(@"//////***************************ANALASIS OF RESPONCE*********************///////// ");
+        //integrating the pojo classes objects here
         
-        //[self analizeResponceObject:resultData];
-        
-      self.arrMeasuremntsObjects = [[NSMutableArray alloc] init];
+        self.arrMeasuremntsObjects = [[NSMutableArray alloc] init];
     
         if ([resultData isKindOfClass:[NSArray class]]) {
             
@@ -63,33 +59,6 @@
         
         
     }];
-}
-/*!
- * @discussion It will analize what responce object has.
- * @param resultData its object which has to anailzied.
- * @return no return paramters.
- */
-- (void)analizeResponceObject:(id)resultData {
-    
-    if ([resultData isKindOfClass:[NSArray class]]) {
-
-        NSLog(@"Responce data contains %lu objects ",(unsigned long)[resultData count]);
-        for (id data in resultData) {
-            [self analizeResponceObject:data];
-        }
-        
-        
-    } else if ([resultData isKindOfClass:[NSDictionary class]]) {
-        NSLog(@"Responce data contains %@ keys" ,[resultData allKeys]);
-        for (id key in [resultData allKeys]) {
-            [self analizeResponceObject:[resultData objectForKey:key
-                                         ]];
-        }
-        
-    }else {
-        NSLog(@"Responce Contains this value %@",resultData);
-    }
-    
 }
 
 /*!
@@ -109,7 +78,7 @@
         
         if (error == nil && response.statusCode == 200 && responseData != nil)
         {
-            id responceData = [MTSerialization JSONObjectWithData:responseData];
+            id responceData = [MTSerialization jSONObjectWithData:responseData];
             if (block) {
                 block(responceData,YES);
             }

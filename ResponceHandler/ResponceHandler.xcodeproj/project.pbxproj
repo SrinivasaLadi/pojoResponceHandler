@@ -20,7 +20,6 @@
 		8A844C781C1072890075C05D /* MTBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A844C731C1072890075C05D /* MTBottom.m */; };
 		8A844C791C1072890075C05D /* MTMeasurements.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A844C751C1072890075C05D /* MTMeasurements.m */; };
 		8A844C7A1C1072890075C05D /* MTTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A844C771C1072890075C05D /* MTTop.m */; };
-		8A974D371C0EE98D00996DFC /* SampleFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A974D361C0EE98D00996DFC /* SampleFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +67,6 @@
 		8A844C751C1072890075C05D /* MTMeasurements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMeasurements.m; sourceTree = "<group>"; };
 		8A844C761C1072890075C05D /* MTTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTop.h; sourceTree = "<group>"; };
 		8A844C771C1072890075C05D /* MTTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTop.m; sourceTree = "<group>"; };
-		8A974D351C0EE98C00996DFC /* SampleFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFile.h; sourceTree = "<group>"; };
-		8A974D361C0EE98D00996DFC /* SampleFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +131,6 @@
 				8A3EF4531C06CEC4005CE614 /* Constants.h */,
 				8A3EF4541C06E311005CE614 /* MTSerialization.h */,
 				8A3EF4551C06E311005CE614 /* MTSerialization.m */,
-				8A974D351C0EE98C00996DFC /* SampleFile.h */,
-				8A974D361C0EE98D00996DFC /* SampleFile.m */,
 			);
 			path = ResponceHandler;
 			sourceTree = "<group>";
@@ -318,7 +313,6 @@
 				8A1789291C05811900371E03 /* main.m in Sources */,
 				8A3EF4561C06E311005CE614 /* MTSerialization.m in Sources */,
 				8A844C7A1C1072890075C05D /* MTTop.m in Sources */,
-				8A974D371C0EE98D00996DFC /* SampleFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

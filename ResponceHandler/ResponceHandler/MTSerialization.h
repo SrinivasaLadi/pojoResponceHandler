@@ -10,6 +10,6 @@
 
 @interface MTSerialization : NSJSONSerialization
 
-+ (id)JSONObjectWithData:(NSData *)data;
-+(NSString *)JSONStringWithDictinary:(NSDictionary *)dict;
++ (id)jSONObjectWithData:(NSData *)data;
++ (NSString *)jSONStringWithDictinary:(NSDictionary *)dict;
 @end

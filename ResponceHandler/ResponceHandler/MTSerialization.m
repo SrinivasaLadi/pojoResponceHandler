@@ -15,12 +15,12 @@
  * @param data its represents which data needs to converted
  * @return it will return convered json object if data is proper else wil return nil
  */
-+ (id)JSONObjectWithData:(NSData *)data {
++ (id)jSONObjectWithData:(NSData *)data {
     NSError *error;
     return [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
 }
 
-+ (NSString *)JSONStringWithDictinary:(NSDictionary *)dict {
++ (NSString *)jSONStringWithDictinary:(NSDictionary *)dict {
     NSError *error;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:0 error:&error];
     if (!jsonData) {

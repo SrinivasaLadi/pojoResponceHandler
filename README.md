@@ -1,6 +1,6 @@
-# POJO classes Automatization sample.
+# POJO classes Automation sample.
 
-##Generating POJO classes Procedure
+##Generating POJO classes 
 
 ###Purpose :
 Pojo Classes Automation will provide all data models classes with robust coding standards from Json response. we can create all related model classes with couple of clicks.
@@ -13,20 +13,22 @@ Pojo Classes Automation will provide all data models classes with robust coding 
 
 link: https://itunes.apple.com/in/app/json-accelerator/id511324989?mt=12
 
-3 copy paste the JSON format  in JSON  Accelerator app.
+3 copy & paste the JSON format  in JSON  Accelerator app.
 
 ![1](https://raw.github.com/SrinivasaLadi/pojoResponceHandler/master/ResponceHandler/ResponceHandler/screenshots/jsonacceleratorview.png)
 
-After Paste
+    this snapshot refers after adding JSON string in the application.
 
 ![2](https://raw.github.com/SrinivasaLadi/pojoResponceHandler/master/ResponceHandler/ResponceHandler/screenshots/jsonacceleratorviewpaste.png)
 
 
-4.Click on Genarate files and Set the Folder path to where has to generate the POJO classes
+4.Click on Genarate files button to generate files with user preferred location.
 
 ![3](https://raw.github.com/SrinivasaLadi/pojoResponceHandler/master/ResponceHandler/ResponceHandler/screenshots/jsonacceleratoroptions.png)
 
 5.Make sure to select objective c  or core data (objective c )
+
+![4](https://raw.github.com/SrinivasaLadi/pojoResponceHandler/master/ResponceHandler/ResponceHandler/screenshots/jsonacceleratorLanguage.png)
 
   On selecting objective c it will generate  data models classes with structure of POJO classes. 
   

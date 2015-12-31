@@ -17,9 +17,6 @@
 		8A17894D1C05811900371E03 /* ResponceHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A17894C1C05811900371E03 /* ResponceHandlerUITests.m */; };
 		8A3EF4521C06CE86005CE614 /* SMACX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3EF4511C06CE86005CE614 /* SMACX.framework */; };
 		8A3EF4561C06E311005CE614 /* MTSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EF4551C06E311005CE614 /* MTSerialization.m */; };
-		8A5320F31C3536140090C0CC /* jsonacceleratoroptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5320F01C3536130090C0CC /* jsonacceleratoroptions.png */; };
-		8A5320F41C3536140090C0CC /* jsonacceleratorview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5320F11C3536130090C0CC /* jsonacceleratorview.png */; };
-		8A5320F51C3536140090C0CC /* jsonacceleratorviewpaste.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5320F21C3536130090C0CC /* jsonacceleratorviewpaste.png */; };
 		8A844C781C1072890075C05D /* MTBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A844C731C1072890075C05D /* MTBottom.m */; };
 		8A844C791C1072890075C05D /* MTMeasurements.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A844C751C1072890075C05D /* MTMeasurements.m */; };
 		8A844C7A1C1072890075C05D /* MTTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A844C771C1072890075C05D /* MTTop.m */; };
@@ -63,9 +60,6 @@
 		8A3EF4531C06CEC4005CE614 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		8A3EF4541C06E311005CE614 /* MTSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSerialization.h; sourceTree = "<group>"; };
 		8A3EF4551C06E311005CE614 /* MTSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSerialization.m; sourceTree = "<group>"; };
-		8A5320F01C3536130090C0CC /* jsonacceleratoroptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsonacceleratoroptions.png; sourceTree = "<group>"; };
-		8A5320F11C3536130090C0CC /* jsonacceleratorview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsonacceleratorview.png; sourceTree = "<group>"; };
-		8A5320F21C3536130090C0CC /* jsonacceleratorviewpaste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jsonacceleratorviewpaste.png; sourceTree = "<group>"; };
 		8A844C711C1072890075C05D /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
 		8A844C721C1072890075C05D /* MTBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBottom.h; sourceTree = "<group>"; };
 		8A844C731C1072890075C05D /* MTBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBottom.m; sourceTree = "<group>"; };
@@ -144,7 +138,6 @@
 		8A1789271C05811900371E03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A5320EF1C3536130090C0CC /* screenshots */,
 				8A3EF4511C06CE86005CE614 /* SMACX.framework */,
 				8A1789281C05811900371E03 /* main.m */,
 			);
@@ -167,16 +160,6 @@
 				8A17894E1C05811900371E03 /* Info.plist */,
 			);
 			path = ResponceHandlerUITests;
-			sourceTree = "<group>";
-		};
-		8A5320EF1C3536130090C0CC /* screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				8A5320F01C3536130090C0CC /* jsonacceleratoroptions.png */,
-				8A5320F11C3536130090C0CC /* jsonacceleratorview.png */,
-				8A5320F21C3536130090C0CC /* jsonacceleratorviewpaste.png */,
-			);
-			path = screenshots;
 			sourceTree = "<group>";
 		};
 		8A844C701C1072890075C05D /* POJO DEMO */ = {
@@ -296,11 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5320F31C3536140090C0CC /* jsonacceleratoroptions.png in Resources */,
-				8A5320F41C3536140090C0CC /* jsonacceleratorview.png in Resources */,
 				8A1789371C05811900371E03 /* LaunchScreen.storyboard in Resources */,
 				8A1789341C05811900371E03 /* Assets.xcassets in Resources */,
-				8A5320F51C3536140090C0CC /* jsonacceleratorviewpaste.png in Resources */,
 				8A1789321C05811900371E03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
